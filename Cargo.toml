@@ -4,7 +4,7 @@ description = "FFI Interface to filecoin-proofs"
 version = "0.7.3"
 authors = ["laser <l@s3r.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/filecoin-project/rust-fil-proofs-ffi"
+repository = "https://github.com/finalitylabs/rust-fil-proofs-ffi"
 readme = "README.md"
 edition = "2018"
 publish = false
@@ -13,8 +13,8 @@ publish = false
 crate-type = ["rlib", "staticlib"]
 
 [dependencies]
-filecoin-proofs = { git = "https://github.com/filecoin-project/rust-fil-proofs.git", branch = "master" }
-storage-proofs = { git = "https://github.com/filecoin-project/rust-fil-proofs.git", branch = "master" }
+filecoin-proofs = { git = "https://github.com/finalitylabs/rust-fil-proofs.git", branch = "master" }
+storage-proofs = { git = "https://github.com/finalitylabs/rust-fil-proofs.git", branch = "master" }
 ffi-toolkit = "0.4.0"
 failure = "0.1.5"
 drop_struct_macro_derive = "0.4.0"
